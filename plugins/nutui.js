@@ -6,7 +6,7 @@
  * @Description:
  */
 import Vue from "vue";
-import NutUI from "@nutui/nutui";
+import NutUI from "@nutui/nutui/dist/nutui";
 // import "@nutui/nutui/dist/nutui.scss";
 export default () => {
   Vue.use(NutUI);

@@ -30,11 +30,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/assets/sass/index.scss"],
+  css: ["@nutui/nutui/dist/nutui.scss", "@/assets/sass/index.scss"],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: "~plugins/nutui.js", mode: "client" }], // 引入nut-ui组件
+  plugins: [{ src: "@/plugins/nutui", mode: "client" }], // 引入nut-ui组件
   /*
    ** Nuxt.js dev-modules
    */
